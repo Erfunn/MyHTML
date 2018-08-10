@@ -30,10 +30,9 @@ body {
 
 #form_box {
   background: white;
-  width: 800px;
+  width: 400px;
   text-align: center;
   border-radius: 10px;
-  height: 500px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -55,12 +54,13 @@ input {
   outline: none;
   padding: 10px;
   margin: 10px;
-  border: 1px solid #006df0;
-  border-radius: 30px;
+  border: 1px solid #dadada;
+  border-radius: 5px;
   color: #006df0;
   font-family: 'Raleway', 'arial';
   font-weight: 100;
   font-size: 17px;
+  left: 10px;
 }
 
 input:focus {
