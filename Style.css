@@ -14,13 +14,16 @@ body {
 
 
 
-@media screen and (max-width: 1300px) {
-  body {
+@media screen and (max-width: 1300px) 
+{
+  body 
+  {
     background-size: auto;
   }
 }
 
-#container {
+#container 
+{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -28,7 +31,8 @@ body {
 }
 
 
-#form_box {
+#form_box 
+{
   background: white;
   width: 400px;
   text-align: center;
@@ -36,7 +40,8 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#form_heading {
+#form_heading 
+{
   color: #006df0;
   padding: 40px 0 0 10px;
   font-family: Yekan,'Raleway', 'arial';
@@ -48,7 +53,8 @@ body {
   font-size: 15px;
 }
 
-input {
+input 
+{
   background: none;
   width: 300px;
   outline: none;
@@ -62,18 +68,21 @@ input {
   font-size: 17px;
 }
 
-input:focus {
+input:focus 
+{
   box-shadow: 0 0 10p #006df0;
   padding: 10px;
   margin: 10px;
   border: 1px solid #006df0;
 }
 
-input[type=submit]:hover {
+input[type=submit]:hover 
+{
   cursor: pointer;
 }
 
-#credits_box {
+#credits_box 
+{
   background: rgba(0, 0, 0, 0.4);
   color: white;
   width: 380px;
@@ -95,15 +104,19 @@ input[type=submit]:hover {
   width: 320px;
 }
 
-a {
+a 
+{
   text-decoration: none;
   color:black;
   cursor: pointer;
 }
 
-a:hover {
+a:hover 
+{
   text-decoration: underline;
 }
-input{
+
+input
+{
   font-family: Yekan,'Raleway', 'arial';
 }
