@@ -1,24 +1,32 @@
-@font-face 
-{
+@font-face {
   font-family: Yekan;
   src: url("yekan.ttf");
 }
 
-body 
-{
-  background: url(https://www.pxwall.com/wp-content/uploads/2018/03/Firewatch-Wallpapers-in-Ultra-HD-4K.jpg);
-  backdrop-filter: no-repeat;
+body {
+  background-image: url("https://lh3.googleusercontent.com/-N2_o5XNMKgE/Vdnclb0ve_I/AAAAAAAACSw/eFsgKAiamyo/s912-Ic42/old_farm.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   font-size: 25px;
   font-family: Yekan,'Raleway', 'arial';
   font-weight: 600;
 }
 
+
+
 @media screen and (max-width: 1300px) {
+  body {
+    background-size: auto;
+  }
+}
+
+#container {
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 
 #form_box {
   background: rgba(255, 255, 255, 0.45);
