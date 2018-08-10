@@ -1,9 +1,11 @@
-@font-face {
+@font-face 
+{
   font-family: Yekan;
   src: url("yekan.ttf");
 }
 
-body {
+body 
+{
   background: url(https://www.pxwall.com/wp-content/uploads/2018/03/Firewatch-Wallpapers-in-Ultra-HD-4K.jpg);
   backdrop-filter: no-repeat;
   background-size: cover;
